@@ -20,7 +20,7 @@ fetch("https://discord.com/api/guilds/1264673001274605598/widget.json")
         return "OWNER"
       } else if (name.toUpperCase() == "$ WICKYY") {
         return "Founder"
-      } else if (name.toUpperCase() == "!𝐃𝐀𝐓_𝟕𝐄𝐗" || name.toUpperCase() == "almaza") {
+      } else if (name.toUpperCase() == "!𝐃𝐀𝐓_𝟕𝐄𝐗" || name.toUpperCase() == "ALMAZA") {
         return "STAFF"
       }
       else if (name.toUpperCase() == "SECURITY") {
