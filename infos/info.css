@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.aaa {
+  text-decoration-line: underline;
+  text-decoration-color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+a {
+  list-style-type: none;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+.main_header {
+  position: fixed;
+}
+header {
+  background-color: rgb(233, 103, 17);
+  height: 70px;
+  width: 100vw;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin: 7px 0px 0px 60px;
+  background-color: rgba(255, 255, 255, 0.329);
+  border-radius: 50px;
+  width: 100px;
+  text-align: center;
+}
+.logo a {
+  color: white;
+  font-size: 3rem;
+}
+.nav_1 ul {
+  display: flex;
+}
+.nav_1 ul li {
+  display: flex;
+  margin: 0px 10px 0px 50px;
+}
+.nav_1 ul li a {
+  color: white;
+  font-size: 1.7rem;
+}
+.nav_1 a:hover {
+    text-decoration-line: underline;
+  }
+.nav_1_1 {
+  margin: 0px 70px 0px 0px;
+}
+.buregrMenu_icon {
+  margin: 0px 70px 0px 0px;
+  display: none;
+  cursor: pointer;
+}
+.buregrMenu_icon div {
+  width: 50px;
+  height: 8px;
+  margin: 5px 0px 0px 0px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 40px;
+}
+.nav_2 {
+  display: none;
+  background-color: rgb(233, 103, 17);
+  height: 180px;
+  text-align: center;
+  overflow: hidden;
+  border: 2px solid rgba(250, 196, 160, 0.164);
+}
+.nav_2 ul {
+}
+.nav_2 ul li {
+}
+.nav_2 ul li a {
+  color: white;
+  font-size: 1.7rem;
+}
+.nav_2_2 ul li {
+  margin: 20px 0px 0px 0px;
+}
+
+/* ////////////////////////////header */
+main {
+  padding: 100px 50px 100px 50px;
+}
+.box1 {
+  text-align: center;
+  color: rgb(129, 129, 129);
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+.box1 h1 {
+  color: rgb(0, 0, 0);
+  font-size: 2.2rem;
+}
+.box1 a {
+  color: rgb(0, 0, 255);
+}
+.box2 {
+  text-align: center;
+  color: rgb(109, 109, 109);
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+.box2 h1 {
+  color: rgb(0, 0, 0);
+  font-size: 2.2rem;
+}
+.box2 a {
+  color: rgb(0, 0, 255);
+}
+footer{
+    background-color: rgb(233, 103, 17);
+    position: fixed;
+    bottom: 0;
+    height: 55px;
+    width: 100vw;
+}
+footer img{
+    margin: 3px 0px 0px 0px;
+    height: 50px;
+}
+.imgs{
+    background-color: white;
+    width: 56px;
+    margin: 0px 0px 0px 36px;
+    border-radius: 50px;
+}
+@media screen and (max-width: 800px) {
+  .nav_1 {
+    display: none;
+  }
+  .nav_2 {
+    display: block;
+  }
+  .buregrMenu_icon {
+    display: block;
+  }
+  .nav_2 {
+    display: none;
+  }
+  .nav_2_show {
+    display: block;
+  }
+}
+@media screen and (max-width: 500px) {
+  .buregrMenu_icon {
+    margin: 0px 40px 0px 0px;
+  }
+  .logo {
+    margin: 7px 0px 0px 20px;
+  }
+  .box1 {
+    text-align: center;
+    color: rgb(129, 129, 129);
+    font-weight: 900;
+    font-size: 1.1rem;
+  }
+  .box1 h1 {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+  }
+  .box2 {
+    text-align: center;
+    color: rgb(129, 129, 129);
+    font-weight: 900;
+    font-size: 1.1rem;
+  }
+  .box2 h1 {
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .buregrMenu_icon {
+    margin: 0px 38px 0px 0px;
+  }
+  .logo {
+    margin: 7px 0px 0px 10px;
+  }
+}

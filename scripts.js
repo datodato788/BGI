@@ -74,7 +74,3 @@ fetch("https://discord.com/api/guilds/1264673001274605598/widget.json")
 
   });
 
-function buregrIcon() {
-  const nav_2 = document.getElementById("nav_2");
-  nav_2.classList.toggle("nav_2_show");
-}

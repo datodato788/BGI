@@ -45,11 +45,14 @@ header {
 }
 .nav_1 ul li {
   display: flex;
-  margin: 0px 20px 0px 0px;
+  margin: 0px 10px 0px 50px;
 }
 .nav_1 ul li a {
   color: white;
   font-size: 1.7rem;
+}
+.nav_1 a:hover {
+  text-decoration-line: underline;
 }
 .nav_1_1 {
   margin: 0px 70px 0px 0px;
@@ -179,10 +182,10 @@ main {
   color: rgb(0, 255, 0);
 }
 .h3_status_idle {
-color: rgb(255, 187, 0);
+  color: rgb(255, 187, 0);
 }
 .h3_status_dnd {
-  color:rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
 }
 @media screen and (max-width: 800px) {
   .nav_1 {
@@ -202,14 +205,12 @@ color: rgb(255, 187, 0);
   }
 }
 @media screen and (max-width: 500px) {
-
   .buregrMenu_icon {
     margin: 0px 40px 0px 0px;
   }
-  .logo{
+  .logo {
     margin: 7px 0px 0px 20px;
-
-  }  
+  }
 }
 @media screen and (max-width: 350px) {
   .userDiv {
@@ -228,8 +229,7 @@ color: rgb(255, 187, 0);
   .buregrMenu_icon {
     margin: 0px 38px 0px 0px;
   }
-  .logo{
+  .logo {
     margin: 7px 0px 0px 10px;
-
-  }  
+  }
 }
