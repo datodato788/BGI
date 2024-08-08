@@ -21,7 +21,7 @@ li {
 }
 header {
   background-color: rgb(233, 103, 17);
-  height: 70px;
+  height: 60px;
   width: 100vw;
 }
 .header {
@@ -30,30 +30,30 @@ header {
   justify-content: space-between;
 }
 .logo {
-  margin: 7px 0px 0px 60px;
+  margin: 9px 0px 0px 60px;
   background-color: rgba(255, 255, 255, 0.329);
   border-radius: 50px;
-  width: 100px;
+  width: 80px;
   text-align: center;
 }
 .logo a {
   color: white;
-  font-size: 3rem;
+  font-size: 2.2rem;
 }
 .nav_1 ul {
   display: flex;
 }
 .nav_1 ul li {
   display: flex;
-  margin: 0px 10px 0px 50px;
+  margin: 6px 10px 0px 50px;
 }
 .nav_1 ul li a {
   color: white;
   font-size: 1.7rem;
 }
 .nav_1 a:hover {
-    text-decoration-line: underline;
-  }
+  text-decoration-line: underline;
+}
 .nav_1_1 {
   margin: 0px 70px 0px 0px;
 }
@@ -63,9 +63,9 @@ header {
   cursor: pointer;
 }
 .buregrMenu_icon div {
-  width: 50px;
-  height: 8px;
-  margin: 5px 0px 0px 0px;
+  width: 45px;
+  height: 6px;
+  margin: 8px 0px 0px 0px;
   background-color: rgb(255, 255, 255);
   border-radius: 40px;
 }
@@ -123,17 +123,17 @@ footer{
     background-color: rgb(233, 103, 17);
     position: fixed;
     bottom: 0;
-    height: 55px;
+    height: 45px;
     width: 100vw;
 }
 footer img{
-    margin: 3px 0px 0px 0px;
-    height: 50px;
+    margin: 1px 0px -3px -1px;
+    height: 40px;
 }
 .imgs{
     background-color: white;
-    width: 56px;
-    margin: 0px 0px 0px 36px;
+    width: 40px;
+    margin: 2px 0px 0px 10px;
     border-radius: 50px;
 }
 @media screen and (max-width: 800px) {
