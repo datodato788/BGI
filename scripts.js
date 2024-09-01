@@ -20,7 +20,11 @@ fetch("https://discord.com/api/guilds/1264673001274605598/widget.json")
         return "OWNER"
       } else if (name.toUpperCase() == "$ WICKYY") {
         return "Founder"
-      } else if (name.toUpperCase() == "!𝐃𝐀𝐓_𝟕𝐄𝐗" || name.toUpperCase() == "ALMAZA") {
+      }
+      else if (name.toUpperCase() == "!𝐃𝐀𝐓_F𝟕𝐄𝐗") {
+        return "Admin"
+      }
+      else if (name.toUpperCase() == "ALMAZA") {
         return "STAFF"
       }
       else if (name.toUpperCase() == "SECURITY") {
@@ -37,6 +41,7 @@ fetch("https://discord.com/api/guilds/1264673001274605598/widget.json")
     //   }
     // }
     for (let i = 0; i < user.members.length; i++) {
+      console.log(user.members[i].username)
 
       //   const----------------
       const userDiv = document.createElement("div");

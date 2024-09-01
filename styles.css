@@ -178,6 +178,16 @@ main {
 .Name_Fans {
   color: rgb(255, 251, 0);
 }
+.Role_Admin{
+  color: rgb(255, 0, 0);
+  text-shadow: 0px 0px 10px #ffffff69;
+  margin: 30px 0px 10px 0px;
+}
+.Name_Admin{
+  color: rgb(255, 0, 0);
+  text-shadow: 0px 0px 10px #ffffff69;
+
+}
 .h3_status_online {
   color: rgb(0, 255, 0);
 }
